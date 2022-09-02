@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMA</title>
+    <link rel="stylesheet" type="text/css" href="estilocinema.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+</head>
+
+<body>
+    <script src="cinemaedicao.js"></script>
+    <header id="home">
+        <div class="container">
+            <figure>
+                <a href="#home"><img id="logo" src="https://www.crushpixel.com/big-static7/preview4/cinema-logo-140118.jpg"></a>
+            </figure>
+            <div id="menusection">
+                <div id="checkbox">
+                    <input type="checkbox" id="checkboxmenu"/>
+                    <label for="checkboxmenu" id="labelcheck"></label>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </div>
+                <nav id="navheader">
+                    <ul>
+                        <li><a href="" class="header">Ingressos</a></li>
+                        <li><a href="" class="header">Trailers</a></li>
+                        <li><a href="" class="header">Fale conosco</a></li>
+                        <li><a href="" class="header">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div>
+        <p id="estilo">Olá, qual estilo de filme você está buscando?</p>
+            <select id="estilosdefilme">
+                <option value="0" selected>Selecione uma opção</option>
+                <option value="1">Ação</option>
+                <option value="2">Terror</option>
+                <option value="3">Comédia</option>
+                <option value="4">Suspense</option>
+                <option value="5">Romance</option>
+            </select>
+    </div>
+    <section>
+        <h1>Filmes em cartaz no cinema</h1>
+            <nav>
+                <ul> 
+                    <a href="#filmesemalta" class="link"><li id="partesdapagina">
+                        Ir para Filmes em alta
+                    </li></a>
+                    <a href="#programacao" class="link"><li id="partesdapagina">
+                        Ir para Programação
+                    </li></a>
+                </ul>
+            </nav>
+    </section>
+    <section>
+        <h2 id="filmesemalta">Filmes em alta</h2>
+        <nav class="cartaz">
+            <figure class="cardfilme">
+                <a href="https://www.cinemark.com.br/filme/top-gun-maverick" class="link" ><img class="imgfilme" src="https://seriesemcena.com.br/wp-content/uploads/2022/05/legiao_fEMlSVQgvjpB-1.jpg" alt="Top Gun: Maverick" >
+                <figcaption class="figcaption">Top Gun: Maverick</figcaption></a>
+            </figure>
+            <figure class="cardfilme">
+                <a href="https://www.cinemark.com.br/filme/lightyear" class="link" ><img class="imgfilme" src="https://static.wikia.nocookie.net/dublagem/images/c/c0/Lightyear_%285%29.jpg/revision/latest?cb=20220513150441&path-prefix=pt-br" alt="Lightyear">
+                <figcaption class="figcaption">Lightyear</figcaption></a>
+            </figure>
+            <figure class="cardfilme">
+                <a href="https://www.cinemark.com.br/filme/homem-aranha-sem-volta-para-casa" class="link" ><img class="imgfilme" src="https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok" alt="Homem-Aranha: Sem Volta para Casa">
+                <figcaption class="figcaption">Homem-Aranha: Sem Volta para Casa</figcaption></a>
+            </figure>
+        </nav>
+    </section>
+    <section>
+        <h2 id="programacao">Programação em cartaz</h2>
+    </section>
+</body>

@@ -1,0 +1,52 @@
+@media (min-width:621px){
+    #checkbox{
+        display: none;
+    }
+}
+
+@media (max-width: 620px){
+    #navheader{
+        display: none;
+    }
+    #checkboxmenu{
+        position: absolute;
+        opacity: 0;
+    }
+    label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+        padding: 0px 20px;
+    }
+    label span{
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        background: white;
+        border-radius: 30px;
+        transition: 0.25s ease-in-out;
+    }
+    label span:nth-child(1){
+        top: 0;
+    }
+    label span:nth-child(2){
+        top: 8px;
+    }
+    label span:nth-child(3){
+        top: 16px;
+    }
+    #checkboxmenu:checked + label span:nth-child(1){
+        transform: rotate(-45deg);
+        top: 8px;
+    }
+    #checkboxmenu:checked + label span:nth-child(2){
+        top: 0;
+    }
+    #checkboxmenu:checked + label span:nth-child(3){
+        transform: rotate(45deg);
+        top: 8px;
+    }
+}
