@@ -8,6 +8,7 @@
     <title>CINEMA</title>
     <link rel="stylesheet" type="text/css" href="estilocinema.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
+    <script src="https://kit.fontawesome.com/845fd8b5bb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,48 +38,63 @@
             </div>
         </div>
     </header>
-    <div>
-        <p id="estilo">Olá, qual estilo de filme você está buscando?</p>
-            <select id="estilosdefilme">
-                <option value="0" selected>Selecione uma opção</option>
-                <option value="1">Ação</option>
-                <option value="2">Terror</option>
-                <option value="3">Comédia</option>
-                <option value="4">Suspense</option>
-                <option value="5">Romance</option>
-            </select>
-    </div>
-    <section>
-        <h1>Filmes em cartaz no cinema</h1>
-            <nav>
-                <ul> 
-                    <a href="#filmesemalta" class="link"><li id="partesdapagina">
-                        Ir para Filmes em alta
-                    </li></a>
-                    <a href="#programacao" class="link"><li id="partesdapagina">
-                        Ir para Programação
-                    </li></a>
-                </ul>
+    <main>
+        <div>
+            <p id="estilo">Olá, qual estilo de filme você está buscando?</p>
+                <select id="estilosdefilme">
+                    <option value="0" selected>Selecione uma opção</option>
+                    <option value="1">Ação</option>
+                    <option value="2">Terror</option>
+                    <option value="3">Comédia</option>
+                    <option value="4">Suspense</option>
+                    <option value="5">Romance</option>
+                </select>
+        </div>
+        <section>
+            <h1>Filmes em cartaz no cinema</h1>
+                <nav>
+                    <ul> 
+                        <a href="#filmesemalta" class="link"><li id="partesdapagina">
+                            Ir para Filmes em alta
+                        </li></a>
+                        <a href="#programacao" class="link"><li id="partesdapagina">
+                            Ir para Programação
+                        </li></a>
+                    </ul>
+                </nav>
+        </section>
+        <section>
+            <h2 id="filmesemalta">Filmes em alta</h2>
+            <nav class="cartaz">
+                <figure class="cardfilme">
+                    <a href="https://www.cinemark.com.br/filme/top-gun-maverick" class="link" ><img class="imgfilme" src="https://seriesemcena.com.br/wp-content/uploads/2022/05/legiao_fEMlSVQgvjpB-1.jpg" alt="Top Gun: Maverick" >
+                    <figcaption class="figcaption">Top Gun: Maverick</figcaption></a>
+                </figure>
+                <figure class="cardfilme">
+                    <a href="https://www.cinemark.com.br/filme/lightyear" class="link" ><img class="imgfilme" src="https://static.wikia.nocookie.net/dublagem/images/c/c0/Lightyear_%285%29.jpg/revision/latest?cb=20220513150441&path-prefix=pt-br" alt="Lightyear">
+                    <figcaption class="figcaption">Lightyear</figcaption></a>
+                </figure>
+                <figure class="cardfilme">
+                    <a href="https://www.cinemark.com.br/filme/homem-aranha-sem-volta-para-casa" class="link" ><img class="imgfilme" src="https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok" alt="Homem-Aranha: Sem Volta para Casa">
+                    <figcaption class="figcaption">Homem-Aranha: Sem Volta para Casa</figcaption></a>
+                </figure>
             </nav>
-    </section>
-    <section>
-        <h2 id="filmesemalta">Filmes em alta</h2>
-        <nav class="cartaz">
-            <figure class="cardfilme">
-                <a href="https://www.cinemark.com.br/filme/top-gun-maverick" class="link" ><img class="imgfilme" src="https://seriesemcena.com.br/wp-content/uploads/2022/05/legiao_fEMlSVQgvjpB-1.jpg" alt="Top Gun: Maverick" >
-                <figcaption class="figcaption">Top Gun: Maverick</figcaption></a>
-            </figure>
-            <figure class="cardfilme">
-                <a href="https://www.cinemark.com.br/filme/lightyear" class="link" ><img class="imgfilme" src="https://static.wikia.nocookie.net/dublagem/images/c/c0/Lightyear_%285%29.jpg/revision/latest?cb=20220513150441&path-prefix=pt-br" alt="Lightyear">
-                <figcaption class="figcaption">Lightyear</figcaption></a>
-            </figure>
-            <figure class="cardfilme">
-                <a href="https://www.cinemark.com.br/filme/homem-aranha-sem-volta-para-casa" class="link" ><img class="imgfilme" src="https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok" alt="Homem-Aranha: Sem Volta para Casa">
-                <figcaption class="figcaption">Homem-Aranha: Sem Volta para Casa</figcaption></a>
-            </figure>
-        </nav>
-    </section>
-    <section>
-        <h2 id="programacao">Programação em cartaz</h2>
-    </section>
+        </section>
+        <section>
+            <h2 id="programacao">Programação em cartaz</h2>
+        </section>
+        <footer>
+            <p>Redes Sociais</p>
+            <div class="redes">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-snapchat-square"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p class="autor">Criado por Rafael Braga</p>
+        </footer>
+    </main>
 </body>
+</html>

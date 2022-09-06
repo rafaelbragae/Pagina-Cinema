@@ -107,3 +107,21 @@ figure:hover{transform: translateY(5px);}
     text-align: center;
     width: 200px;
 }
+footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 41, 41, 0.527);
+    text-align: center;
+}
+footer p{
+    font-weight: 700px;
+}
+footer i{
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.autor{
+    color: gray;
+    margin: 20px;
+}
