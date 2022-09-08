@@ -73,6 +73,9 @@ section{
     text-decoration: none;
     cursor: pointer;
 }
+#link{
+    cursor: pointer;
+}
 .link:hover{text-decoration: solid; color: rebeccapurple;}
 h1,h2{
     background-color: rgb(29, 29, 29);
